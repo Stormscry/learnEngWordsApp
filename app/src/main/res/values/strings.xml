@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">pr3</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="about">About</string>
+    <string name="favorites">Favorites</string>
+    <string name="add_word_fragm_label">Добавьте новое слово для изучения!</string>
+    <string name="word_eng_hint">Слово Eng</string>
+    <string name="word_ru_hint">Слово Ru</string>
+    <string name="add_word_btn_confirm">Добавить</string>
+    <string name="inputError">Это поле обязательно для ввода</string>
+</resources>

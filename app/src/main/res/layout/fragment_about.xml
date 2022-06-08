@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="fragments.AboutFragment">
+
+    <Button
+        android:id="@+id/btnSimpleDialogFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show simple dialog" />
+
+    <Button
+        android:id="@+id/btnSingleChoiceDialogFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="show single choice dialog" />
+
+    <TextView
+        android:id="@+id/tvChosenValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Значение:"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
